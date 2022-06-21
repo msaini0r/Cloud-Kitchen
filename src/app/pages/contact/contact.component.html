@@ -1,18 +1,18 @@
 <div class="container mt-5 mb-5">
     <h1>Contact</h1>
-    <form action="https://formspree.io/f/xayvzewa" method="post" class="col-lg-8">
+    <form action="https://formspree.io/f/xayvzewa" method="POST" class="col-lg-8">
         <div class="row">
             <div class="col-lg-6 mt-2 mb-2">
-                <input type="text" class="form-control" placeholder="Enter First Name" >
+                <input type="text" name="Name" class="form-control" placeholder="Enter First Name" required >
             </div>
             <div class="col-lg-6 mt-2 mb-2">
-                <input type="text" class="form-control" placeholder="Enter Last Name" >
+                <input type="text" name="Name" class="form-control" placeholder="Enter Last Name" required>
             </div>
             <div class="col-lg-12 mt-2 mb-2">
-                <input type="text" class="form-control" placeholder="Enter Email ID" >
+                <input type="email" name="Email" class="form-control" placeholder="Enter Email ID" required>
             </div>
             <div class="col-lg-12 mt-2 mb-2">
-                <input type="text" class="form-control" placeholder="Enter Mobile" >
+                <input type="number" name="Message" class="form-control" placeholder="Enter Mobile" required>
             </div>
             <div class="col-lg-12">
                 <button type="submit" class="btn btn-md btn-dark">Submit</button>
